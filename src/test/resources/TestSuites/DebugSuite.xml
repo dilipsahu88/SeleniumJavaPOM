@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Debug Suite" verbose="1">
+    <test name="Login Tests">
+        <classes>
+            <class name="com.practicetestautomation.tests.exceptions.ExceptionsTests">
+                <methods>
+                    <include name="noSuchElementExceptionTest"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="timout Exception Tests">
+        <classes>
+            <class name="com.practicetestautomation.tests.exceptions.ExceptionsTests">
+                <methods>
+                    <include name="elementNotInteractableExceptionTest"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="timout Exception Tests">
+        <classes>
+            <class name="com.practicetestautomation.tests.exceptions.ExceptionsTests">
+                <methods>
+                    <include name="timeoutExceptionTest"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="timout Exception Tests">
+        <classes>
+            <class name="com.practicetestautomation.tests.exceptions.ExceptionsTests">
+                <methods>
+                    <include name="invalidElementStateExceptionTest"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
