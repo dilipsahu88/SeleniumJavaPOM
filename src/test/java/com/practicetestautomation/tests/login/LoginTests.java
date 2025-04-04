@@ -12,7 +12,7 @@ public class LoginTests extends BaseTest {
     @Test(groups = {"positive", "regression", "smoke"})
     public void testLoginFunctionality() {
 
-        logger.info("Starting testLoginFunctionality");
+        logger.info("Starting testLoginFunctionality Test");
         LoginPage loginPage = new LoginPage(driver);
         loginPage.visit();
         SuccessfulLoginPage successfulLoginPage = loginPage.executeLogin("student", "Password123");
@@ -25,7 +25,7 @@ public class LoginTests extends BaseTest {
     }
     @Parameters({"username", "password", "expectedErrorMessage"})
     @Test(groups = {"negative", "regression"})
-    public void negativeLoginTest(String username, String password, String expectedErrorMessage) throws InterruptedException {
+    public void negativeLoginTest(String username, String password, String expectedErrorMessage) throws InterruptedException{
 
         logger.info("Starting negative LoginTest");
 
