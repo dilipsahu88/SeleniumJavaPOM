@@ -11,4 +11,8 @@ public class test {
         System.out.println("test Third method");
     }
 
+    public void testFour() {
+        System.out.println("test Fourth method");
+    }
+
 }
