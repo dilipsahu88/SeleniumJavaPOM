@@ -64,8 +64,10 @@ public class ExceptionsTests extends BaseTest {
         exceptionPage.visit();
         exceptionPage.pushAddButton();
         Assert.assertTrue(exceptionPage.isInstructionsElementHiddenAfterWait(), "Element is visible");
-
-
+    }
+    @Test
+    public void autoBuildCheckOne() {
+        System.out.println("CICD Auto Build Kicked");
     }
 
 }
