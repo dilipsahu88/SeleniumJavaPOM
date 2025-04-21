@@ -73,5 +73,9 @@ public class ExceptionsTests extends BaseTest {
     public void autoBuildCheckTwo() {
         System.out.println("CICD Auto Build Kicked no Two");
     }
+    @Test
+    public void autoBuildCheckThree() {
+        System.out.println("CICD Auto Build Kicked no Three");
+    }
 
 }
